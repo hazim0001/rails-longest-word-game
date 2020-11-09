@@ -1,0 +1,11 @@
+<h1>Result</h1>
+
+<%= @answer%>
+
+<h4>Your final score is <%= @score%></h4><br>
+<h4>Your Total score is <%= session[:score]%></h4>
+
+
+<div>
+  <%= link_to'Play again',new_path %>
+</div>

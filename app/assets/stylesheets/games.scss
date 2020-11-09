@@ -1,0 +1,29 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.greenbox{
+  background-color: rgb(95,150,216);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding:10px 15px;
+  margin: 10px;
+}
+.borderred{
+  // border:2px solid red;
+  padding:20px;
+}
+.formbox{
+  // border:2px solid red;
+  width: 150px;
+  height: 25px;
+  margin:10px 20px;
+}
+.maxwidth{
+  width: 90%;
+}
+
+.percent{
+  width: 30%;
+  height: 20px;
+}
